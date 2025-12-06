@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../../components/ui/navbar';
 import PrimaryButton from '../../components/ui/primarybutton';
 
+// Car Listing Page - displays available cars for purchase
 const Listing = () => {
   const cars = [
     {
