@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import NavBar from '../../components/ui/navbar';
 import PrimaryButton from '../../components/ui/primarybutton';
 
+// Order Form Page - handles customer orders
 const Order = () => {
   const [formData, setFormData] = useState({
     fullName: '',
